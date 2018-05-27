@@ -118,6 +118,9 @@ $(function() {
             //  <timestamp>:<random>
             // We use a random thingy just in case somebody is saving something EXACTLY
             // in the same moment
+            
+            console.log(e);
+            
             queueRef.child(Date.now().toString() + ":" + Math.random().toString().slice(2)).set({
                 event: e,
                 by: uid
