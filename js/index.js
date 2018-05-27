@@ -2,11 +2,12 @@ $(function() {
 
     // Initialize Firebase configuration
     var config = {
-        apiKey: "AIzaSyAsFK9oDTtsCdqrHAfQKs8_TmNtBOoIkBY",
-        authDomain: "emma-ea74d.firebaseapp.com",
-        databaseURL: "https://emma-ea74d.firebaseio.com",
-        storageBucket: "emma-ea74d.appspot.com",
-        messagingSenderId: "95300595436"
+      apiKey: "AIzaSyANnKKOJZwowqPpL6GIYqdsEMyWSCD4Vys",
+      authDomain: "test-47c76.firebaseapp.com",
+      databaseURL: "https://test-47c76.firebaseio.com",
+      projectId: "test-47c76",
+      storageBucket: "",
+      messagingSenderId: "200696419444"
     };
     firebase.initializeApp(config);
     
